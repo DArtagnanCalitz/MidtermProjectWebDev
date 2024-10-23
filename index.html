@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Car Camping Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Title, Name, and Student Number -->
+    <header>
+        <h1>Solo Car Camping Blog</h1>
+        <h2>D'Artagnan Calitz - Student #123456</h2>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <p>This blog shares my solo car camping adventures across California, offering tips on locations, gear, and experiences in nature. It’s meant to inspire outdoor enthusiasts to explore solo camping while providing practical advice.</p>
+    </section>
+
+    <!-- Important Outcomes -->
+    <section id="outcomes">
+        <h3>Key Outcomes</h3>
+        <ul>
+            <li class="outcome1">Encourage solo car camping.</li>
+            <li class="outcome2">Offer detailed gear recommendations.</li>
+            <li class="outcome3">Provide location-specific camping tips.</li>
+            <li class="outcome4">Real-time weather updates for campgrounds.</li>
+            <li class="outcome5">Enable users to share their camping stories.</li>
+            <li class="outcome6">Highlight best solo camping spots in California.</li>
+        </ul>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h3>Website Features</h3>
+
+        <!-- Feature 1: Gear Recommendations -->
+        <div class="feature outcome2">
+            <h4>Feature 1: Gear Recommendations</h4>
+            <p>This section offers gear recommendations with detailed descriptions and user ratings. Ideal for solo car campers looking for lightweight, durable gear.</p>
+            <p><strong>Implementation:</strong> Built using raw HTML and styled with CSS. Gear data can be dynamically loaded via a Flask backend.</p>
+        </div>
+
+        <!-- Feature 2: Interactive Map of Campsites -->
+        <div class="feature outcome6">
+            <h4>Feature 2: Interactive Map of Campsites</h4>
+            <p>This feature provides an interactive map showcasing the best campsites across California. You can explore the map to find your next camping destination.</p>
+            <p><strong>Implementation:</strong> Uses Google Maps API and displays campsite data via JavaScript.</p>
+            <div id="map"></div>
+        </div>
+
+        <!-- Feature 3: Real-time Weather Updates -->
+        <div class="feature outcome4">
+            <h4>Feature 3: Real-time Weather Updates</h4>
+            <p>This feature offers real-time weather updates for the campsites. Essential for planning a safe and comfortable trip.</p>
+            <p><strong>Implementation:</strong> Integrated with a weather API to display real-time weather info.</p>
+            <div id="weather">
+                <p>Loading weather updates...</p>
+            </div>
+        </div>
+
+        <!-- Add other features here -->
+    </section>
+
+    <!-- Footer and Appraisal -->
+    <footer>
+        <p>Enhancements: For future iterations, we could add campsite availability and user-generated reviews. Improving the mobile experience is also a top priority.</p>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
